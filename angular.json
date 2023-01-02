@@ -63,7 +63,10 @@
               "browserTarget": "keynoteng15:build:production"
             },
             "development": {
-              "browserTarget": "keynoteng15:build:development"
+              "browserTarget": "keynoteng15:build:development",
+              "sslCert": "ssl/server.crt",
+              "sslKey": "ssl/server.key",
+              "ssl": true
             }
           },
           "defaultConfiguration": "development"
